@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.mainBg {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profileCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 25px;
+  border-radius: 30px;
+}
+span {
+  color: #0b69ff;
+}
+.balanceCard {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.myCardImg {
+  height: 80px;
+  width: 80px;
+  margin-right: 16px;
+}
+.transactionCard {
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+}
+.formCont {
+  width: 50%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+.input {
+  width: 100%;
+  border-radius: 6px;
+  height: 29px;
+  padding-left: 10px;
+}
+.btn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 6px;
+  width: 60px;
+  border: 0px;
+  margin-top: 10px;
+}
+.listEl {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  justify-content: flex-start;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding-left: 10px;
+}

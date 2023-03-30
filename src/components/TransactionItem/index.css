@@ -1,0 +1,17 @@
+/* Write your CSS here */
+
+.listEl {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  justify-content: flex-start;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.button {
+  border: 0px;
+  background-color: #0000;
+}
